@@ -1,2 +1,2 @@
-﻿ถ้อยแถลงแห่งวิถี Samurai
+﻿ถ้อยแถลงแห่งวิถี Agile Samurai
 http://agilemanifesto.org/
