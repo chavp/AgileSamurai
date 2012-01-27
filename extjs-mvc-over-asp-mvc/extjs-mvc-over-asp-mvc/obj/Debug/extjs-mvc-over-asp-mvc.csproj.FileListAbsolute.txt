@@ -1,0 +1,5 @@
+D:\GithubRepositories\AgileSamurai\extjs-mvc-over-asp-mvc\extjs-mvc-over-asp-mvc\bin\extjs-mvc-over-asp-mvc.dll
+D:\GithubRepositories\AgileSamurai\extjs-mvc-over-asp-mvc\extjs-mvc-over-asp-mvc\bin\extjs-mvc-over-asp-mvc.pdb
+D:\GithubRepositories\AgileSamurai\extjs-mvc-over-asp-mvc\extjs-mvc-over-asp-mvc\obj\Debug\ResolveAssemblyReference.cache
+D:\GithubRepositories\AgileSamurai\extjs-mvc-over-asp-mvc\extjs-mvc-over-asp-mvc\obj\Debug\extjs-mvc-over-asp-mvc.dll
+D:\GithubRepositories\AgileSamurai\extjs-mvc-over-asp-mvc\extjs-mvc-over-asp-mvc\obj\Debug\extjs-mvc-over-asp-mvc.pdb
