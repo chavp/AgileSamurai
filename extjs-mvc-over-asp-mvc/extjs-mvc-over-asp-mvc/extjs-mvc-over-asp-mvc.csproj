@@ -1331,7 +1331,6 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <None Include="desktop\data\users.json" />
     <None Include="Content\css\ui-darkness\images\Thumbs.db" />
     <None Include="Scripts\ext\resources\sass\config.rb" />
     <None Include="Scripts\ext\resources\sass\ext-all-access.scss" />
