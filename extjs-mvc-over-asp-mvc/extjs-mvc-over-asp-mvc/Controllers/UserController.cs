@@ -22,7 +22,7 @@ namespace extjs_mvc_over_asp_mvc.Controllers
         {
             var oldUser = (from u in MvcApplication.UserRepository
                           where u.Id == id
-                          select u).FirstOrDefault();
+                          select u).First();
 
             oldUser.Name = user.Name;
             oldUser.Email = user.Email;
@@ -30,7 +30,7 @@ namespace extjs_mvc_over_asp_mvc.Controllers
             return Json(new
             {
                 success = true,
-                message = "Update method called successfully"
+                message = string.Format("Update user id {0}called successfully", id)
             });
         }
 
