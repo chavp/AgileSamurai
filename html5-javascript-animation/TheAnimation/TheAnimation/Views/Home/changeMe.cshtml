@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title = "changeMe";
+}
+
+<h2>changeMe</h2>
+
+<style>
+    #change-me
+    {
+        position: absolute;
+        top: 100px;
+        left: 400px;
+        font: 24px arial;
+    }
+    
+    #move-up #move-down #color #disappear
+    {
+        padding: 5px;
+    }
+
+</style>
+
+<button id="move-up">Move UP</button>
+<button id="move-down">Move Down</button>
+<button id="color">Color</button>
+<button id="disappear">Disappear</button>
+<button id="slide-toggle">Slide Toggle</button>
+<button id="fade-toggle">Fade Toggle</button>
+
+<div id="change-me">Make Me Do Stuff!</div>
+
+<script type="text/javascript">
+    $(function () {
+        $('#move-up').on('click', function () {
+            $('#change-me').animate({ top:30 }, 200);
+        });
+
+        $('#move-down').on('click', function () {
+            $('#change-me').animate({ top: 500 }, 200);
+        });
+
+        $('#color').on('click', function () {
+            $('#change-me').css({ color: "purple" });
+        });
+
+        $('#disappear').on('click', function () {
+            $('#change-me').toggle("fast");
+        });
+
+        $('#slide-toggle').on('click', function () {
+            $('#change-me').slideToggle(3000);
+        });
+
+        $('#fade-toggle').on('click', function () {
+            $('#change-me').fadeToggle(3000);
+        });
+    });
+</script>

@@ -1,0 +1,7 @@
+D:\GithubRepositories\AgileSamurai\html5-javascript-animation\TheAnimation\TheAnimation\bin\TheAnimation.dll
+D:\GithubRepositories\AgileSamurai\html5-javascript-animation\TheAnimation\TheAnimation\bin\TheAnimation.pdb
+D:\GithubRepositories\AgileSamurai\html5-javascript-animation\TheAnimation\TheAnimation\bin\EntityFramework.dll
+D:\GithubRepositories\AgileSamurai\html5-javascript-animation\TheAnimation\TheAnimation\bin\EntityFramework.xml
+D:\GithubRepositories\AgileSamurai\html5-javascript-animation\TheAnimation\TheAnimation\obj\Debug\ResolveAssemblyReference.cache
+D:\GithubRepositories\AgileSamurai\html5-javascript-animation\TheAnimation\TheAnimation\obj\Debug\TheAnimation.dll
+D:\GithubRepositories\AgileSamurai\html5-javascript-animation\TheAnimation\TheAnimation\obj\Debug\TheAnimation.pdb

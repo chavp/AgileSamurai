@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "slidePicture";
+}
+
+<h2>slidePicture</h2>
+
+<style>
+    #click-me
+    {
+        background: #D8B36E;
+        padding: 20px;
+        text-align: center;
+        width: 600px;
+        display: block;
+        border: 2px solid #000;
+    }
+    
+    #picframe
+    {
+        background: #D8B36E;
+        padding: 20px;
+        width: 600px;
+        display: none;
+        border: 2px solid #000;
+    }
+</style>
+<div id="click-me">Show Me the My Friend of The Day</div>
+<div id="picframe">
+    <img src='@Url.Content("/Content/images/my-friend.jpg")'/>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $('#click-me').on("click", function () {
+            $('#picframe').slideToggle(1000);
+        });
+    });
+</script>

@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "dogForSale";
+}
+
+<style>
+    div
+    {
+        float: left;
+        text-align: left;
+    }
+    
+    img
+    {
+        height:100%;
+    }
+    
+    #header
+    {
+        width: 100%;
+        border: 0px;
+        height: 50px;
+    }
+    
+    #main
+    {
+        background-color: Gray;
+        height: 400px;
+        display: none;
+    }
+    
+</style>
+
+<div id="header">
+    <h2>The Dog For Sale</h2>
+</div>
+
+<div id="main">
+    <div class="guess-box"><img src="../../Content/images/dogForSale-1.jpg"/></div>
+    <div class="guess-box"><img src="../../Content/images/dogForSale-2.jpeg"/></div>
+    <div class="guess-box"><img src="../../Content/images/dogForSale-3.jpg"/></div>
+    <div class="guess-box"><img src="../../Content/images/dogForSale-4.jpg"/></div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $('#main').fadeIn(3000);
+        $('.guess-box').on("click", function () {
+            var discount = Math.floor(Math.random() * 5 + 5);
+            var msg = "<p>Discunt: <strong>" + discount + "%</strong></p>";
+            $("p", this).remove();
+            $(this).append(msg);
+        });
+    });
+</script>

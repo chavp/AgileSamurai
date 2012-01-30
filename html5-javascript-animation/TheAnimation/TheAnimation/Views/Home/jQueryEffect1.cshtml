@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "jQueryEffect1";
+}
+<style>
+    #picframe
+    {
+        width: 500px;
+        height: 500px;
+    }
+</style>
+
+<h1>$('h1').hide("slow")</h2>
+
+<h2 style="display:none;">$('h2').show("fast")</h2>
+
+<div id="picframe"><img src="../../Content/images/Sunset.jpg"/></div>
+
+<p>Hello </p>
+<script type="text/javascript">
+    $(function () {
+        $('h1').hide("slow");
+        $('h2').show("slow");
+
+        $('#picframe').slideUp("slow");
+
+        $('p').html("5555");
+    });
+</script>
