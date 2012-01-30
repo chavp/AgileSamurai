@@ -67,10 +67,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\model\User.js" />
-    <Content Include="app\store\UserStore.js" />
-    <Content Include="app\view\user\Edit.js" />
-    <Content Include="app\view\user\List.js" />
+    <Content Include="desktop\model\User.js" />
+    <Content Include="desktop\store\UserStore.js" />
+    <Content Include="desktop\view\user\Edit.js" />
+    <Content Include="desktop\view\user\List.js" />
     <Content Include="Content\css\ui-darkness\images\ui-bg_flat_30_cccccc_40x100.png" />
     <Content Include="Content\css\ui-darkness\images\ui-bg_flat_50_5c5c5c_40x100.png" />
     <Content Include="Content\css\ui-darkness\images\ui-bg_glass_20_555555_1x400.png" />
@@ -102,8 +102,8 @@
     <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
     <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
     <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
-    <Content Include="app\app.js" />
-    <Content Include="app\controller\UserController.js" />
+    <Content Include="desktop\app.js" />
+    <Content Include="desktop\controller\UserController.js" />
     <Content Include="Scripts\ext\bootstrap.js" />
     <Content Include="Scripts\ext\ext-all-debug-w-comments.js" />
     <Content Include="Scripts\ext\ext-all-debug.js" />
@@ -1331,7 +1331,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <None Include="app\data\users.json" />
+    <None Include="desktop\data\users.json" />
     <None Include="Content\css\ui-darkness\images\Thumbs.db" />
     <None Include="Scripts\ext\resources\sass\config.rb" />
     <None Include="Scripts\ext\resources\sass\ext-all-access.scss" />
