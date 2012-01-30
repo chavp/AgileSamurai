@@ -1,4 +1,6 @@
 ﻿Ext.define('Samurai.model.User', {
     extend: 'Ext.data.Model',
-    fields: ['id', 'name', 'email']
+    fields: ['Id', 'Name', 'Email'],
+    idProperty: 'Id'
+
 });

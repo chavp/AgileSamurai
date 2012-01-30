@@ -8,8 +8,8 @@
 
     initComponent: function () {
         this.columns = [
-            { text: 'Name', dataIndex: 'name', flex: 1 },
-            { text: 'Email', dataIndex: 'email', flex: 1 }
+            { text: 'Name', dataIndex: 'Name', flex: 1 },
+            { text: 'Email', dataIndex: 'Email', flex: 1 }
         ];
 
         this.callParent(arguments);

@@ -13,12 +13,12 @@
                 items: [
                     {
                         xtype: 'textfield',
-                        name: 'name',
+                        name: 'Name',
                         fieldLabel: 'Name'
                     },
                     {
                         xtype: 'textfield',
-                        name: 'email',
+                        name: 'Email',
                         fieldLabel: 'Email'
                     }
                 ]

@@ -41,8 +41,8 @@ namespace extjs_mvc_over_asp_mvc
 
             UserRepository = new List<User>();
 
-            UserRepository.Add(new User{id = 1, name = "Edd", email = "ed@sencha.com"});
-            UserRepository.Add(new User { id = 2, name = "Tommy", email = "tommy@sencha.com" });
+            UserRepository.Add(new User{Id = 1, Name = "Edd", Email = "ed@sencha.com"});
+            UserRepository.Add(new User { Id = 2, Name = "Tommy", Email = "tommy@sencha.com" });
         }
     }
 }

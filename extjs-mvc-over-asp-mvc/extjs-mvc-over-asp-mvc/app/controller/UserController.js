@@ -33,9 +33,9 @@
         record.set(values);
         win.close();
 
-        this.getUserStoreStore().sync();
+        //this.getUserStoreStore().sync();
 
-        console.log("getUsersStore().sync()");
+        //console.log("getUsersStore().sync()");
     },
 
     editUser: function (grid, record) {

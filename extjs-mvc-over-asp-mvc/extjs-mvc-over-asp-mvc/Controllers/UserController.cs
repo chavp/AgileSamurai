@@ -18,9 +18,20 @@ namespace extjs_mvc_over_asp_mvc.Controllers
         }
 
         [HttpPost]
-        public ActionResult Update(int id, string name, string email)
+        public JsonResult Update(int id, User user)
         {
-            return View();
+            var oldUser = (from u in MvcApplication.UserRepository
+                          where u.Id == id
+                          select u).FirstOrDefault();
+
+            oldUser.Name = user.Name;
+            oldUser.Email = user.Email;
+
+            return Json(new
+            {
+                success = true,
+                message = "Update method called successfully"
+            });
         }
 
     }
