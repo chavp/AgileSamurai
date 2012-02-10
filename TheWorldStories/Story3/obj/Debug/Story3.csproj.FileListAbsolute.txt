@@ -1,0 +1,5 @@
+D:\GithubRepositories\AgileSamurai\TheWorldStories\Story3\bin\Debug\Story3.dll
+D:\GithubRepositories\AgileSamurai\TheWorldStories\Story3\bin\Debug\Story3.pdb
+D:\GithubRepositories\AgileSamurai\TheWorldStories\Story3\obj\Debug\ResolveAssemblyReference.cache
+D:\GithubRepositories\AgileSamurai\TheWorldStories\Story3\obj\Debug\Story3.dll
+D:\GithubRepositories\AgileSamurai\TheWorldStories\Story3\obj\Debug\Story3.pdb

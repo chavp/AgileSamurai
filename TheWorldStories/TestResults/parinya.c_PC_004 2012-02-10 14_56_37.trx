@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="dfb24c9c-4d61-4f22-8b4f-f4db46afa3c9" name="parinya.c@PC_004 2012-02-10 14:56:37" runUser="CARPASSAD\parinya.c" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0497fe46-519b-456c-8b7f-9107314feec0">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="parinya.c_PC_004 2012-02-10 14_56_37" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-02-10T14:56:37.3775405+07:00" queuing="2012-02-10T14:56:37.4242985+07:00" start="2012-02-10T14:56:37.6113305+07:00" finish="2012-02-10T14:56:38.1256685+07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="d:\githubrepositories\agilesamurai\theworldstories\story3\bin\debug\story3.dll" id="c9c783fc-64fa-b44f-b961-280a4f405a8a">
+      <Execution id="4192b33b-45ce-46d8-b0e8-3b8dc761cfda" />
+      <TestMethod codeBase="D:/GithubRepositories/AgileSamurai/TheWorldStories/Story3/bin/Debug/Story3.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Story3.UnitTest1, Story3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c9c783fc-64fa-b44f-b961-280a4f405a8a" executionId="4192b33b-45ce-46d8-b0e8-3b8dc761cfda" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4192b33b-45ce-46d8-b0e8-3b8dc761cfda" testId="c9c783fc-64fa-b44f-b961-280a4f405a8a" testName="TestMethod1" computerName="PC_004" duration="00:00:00.0137846" startTime="2012-02-10T14:56:37.7671905+07:00" endTime="2012-02-10T14:56:38.0321525+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4192b33b-45ce-46d8-b0e8-3b8dc761cfda">
+      <Output>
+        <StdOut>The Korean Girls’ Generation
+poses
+on
+Red Carpet
+at
+The MNET Asian Music Awards ceremony
+in
+Singapore
+last November</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

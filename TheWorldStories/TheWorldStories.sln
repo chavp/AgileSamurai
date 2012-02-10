@@ -1,18 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWorldStories", "TheWorldStories\TheWorldStories.csproj", "{FA390491-3236-4C9A-A2D8-8B523B6D64AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Story3", "Story3\Story3.csproj", "{C407B059-7C61-4A5C-B0F2-9A692B5B61C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{082E30E5-FC73-4E3C-8CFD-560BAB1BB118}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TheWorldStories.vsmdi = TheWorldStories.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
 EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = TheWorldStories.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FA390491-3236-4C9A-A2D8-8B523B6D64AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA390491-3236-4C9A-A2D8-8B523B6D64AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA390491-3236-4C9A-A2D8-8B523B6D64AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA390491-3236-4C9A-A2D8-8B523B6D64AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C407B059-7C61-4A5C-B0F2-9A692B5B61C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C407B059-7C61-4A5C-B0F2-9A692B5B61C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C407B059-7C61-4A5C-B0F2-9A692B5B61C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C407B059-7C61-4A5C-B0F2-9A692B5B61C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

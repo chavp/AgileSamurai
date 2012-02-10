@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3e5ad292-68ae-4cd8-938e-e9dc2ccb554e" name="parinya.c@PC_004 2012-02-10 14:50:03" runUser="CARPASSAD\parinya.c" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0497fe46-519b-456c-8b7f-9107314feec0">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="parinya.c_PC_004 2012-02-10 14_50_03" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-02-10T14:50:03.5972505+07:00" queuing="2012-02-10T14:50:10.5953645+07:00" start="2012-02-10T14:50:10.9694285+07:00" finish="2012-02-10T14:50:20.3677865+07:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="PC_004" outcome="Error" timestamp="2012-02-10T14:50:20.3366145+07:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="d:\githubrepositories\agilesamurai\theworldstories\story3\bin\debug\story3.dll" id="c9c783fc-64fa-b44f-b961-280a4f405a8a">
+      <Execution id="8def9212-cc62-42df-9b06-330e344c5414" />
+      <TestMethod codeBase="D:/GithubRepositories/AgileSamurai/TheWorldStories/Story3/bin/Debug/Story3.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Story3.UnitTest1, Story3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c9c783fc-64fa-b44f-b961-280a4f405a8a" executionId="8def9212-cc62-42df-9b06-330e344c5414" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8def9212-cc62-42df-9b06-330e344c5414" testId="c9c783fc-64fa-b44f-b961-280a4f405a8a" testName="TestMethod1" computerName="PC_004" duration="00:00:08.9151920" startTime="2012-02-10T14:50:11.4214225+07:00" endTime="2012-02-10T14:50:20.3366145+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8def9212-cc62-42df-9b06-330e344c5414">
+    </UnitTestResult>
+  </Results>
+</TestRun>
