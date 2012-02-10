@@ -1,0 +1,5 @@
+D:\GithubRepositories\AgileSamurai\object-oriented-extjs\object-oriented-extjs\bin\object-oriented-extjs.dll
+D:\GithubRepositories\AgileSamurai\object-oriented-extjs\object-oriented-extjs\bin\object-oriented-extjs.pdb
+D:\GithubRepositories\AgileSamurai\object-oriented-extjs\object-oriented-extjs\obj\Debug\ResolveAssemblyReference.cache
+D:\GithubRepositories\AgileSamurai\object-oriented-extjs\object-oriented-extjs\obj\Debug\object-oriented-extjs.dll
+D:\GithubRepositories\AgileSamurai\object-oriented-extjs\object-oriented-extjs\obj\Debug\object-oriented-extjs.pdb
