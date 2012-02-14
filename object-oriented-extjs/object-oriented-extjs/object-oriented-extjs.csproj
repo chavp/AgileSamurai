@@ -66,8 +66,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\controller\MyAppController.js" />
+    <Content Include="app\mixins\Log.js" />
+    <Content Include="app\model\Math.js" />
     <Content Include="app\view\MyFields2.js" />
     <Content Include="app\view\MyFields.js" />
+    <Content Include="app\view\SimpleWindow.js" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\jquery-ui.css" />
@@ -1282,6 +1285,7 @@
     <Content Include="Scripts\ext\resources\themes\images\gray\window\icon-warning.gif" />
     <Content Include="Scripts\ext\resources\themes\images\gray\window\window-default-corners.gif" />
     <Content Include="Scripts\ext\resources\themes\images\gray\window\window-default-sides.gif" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
     <Content Include="Scripts\prototype.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

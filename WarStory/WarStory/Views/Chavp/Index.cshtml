@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+
+<h2>Index</h2>
+
+<div class="land">
+    <div class="warehouse">
+        <div class="wood">Wood: <span class="value"></span></div>
+        <div class="stone">Stone: <span class="value"></span></div>
+        <div class="iron">Iron: <span class="value"></span></div>
+    </div>
+</div>
+
+<script src="@Url.Content("~/Scripts/domain/Warehouse.js")" type="text/javascript"></script>
+
+<script type="text/javascript">
+    var chavpWarehouse = new Warehouse("Chavp.Warehouse");
+    var next = function () {
+        chavpWarehouse.action();
+
+        $('.wood .value').text(chavpWarehouse.wood);
+        $('.stone .value').text(chavpWarehouse.stone);
+        $('.iron .value').text(chavpWarehouse.iron);
+
+    }
+    $(function () {
+        setInterval(next, 1000);
+    });
+</script>
