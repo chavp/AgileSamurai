@@ -3,6 +3,46 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fluqi-asp-mvc3", "fluqi-asp-mvc3\fluqi-asp-mvc3.csproj", "{3EB75D6F-CFF1-4B93-B2F2-7354F0702E05}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "box2d-js_0.1.0", "..\..\..\Doc1\MyDoc\MySoftware\javascript-2d\box2d-js_0.1.0\", "{F673B5F0-81C3-4FEF-BA3F-AA4900338B84}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/box2d-js_0.1.0"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\Doc1\MyDoc\MySoftware\javascript-2d\box2d-js_0.1.0\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\box2d-js_0.1.0\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/box2d-js_0.1.0"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\Doc1\MyDoc\MySoftware\javascript-2d\box2d-js_0.1.0\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\box2d-js_0.1.0\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "5589"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "balupton-history.js-de8554b", "..\..\..\Doc1\MyDoc\MySoftware\balupton-history.js-de8554b\", "{C5321F32-DC83-40EA-AC94-48702ABD974B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/balupton-history.js-de8554b"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\Doc1\MyDoc\MySoftware\balupton-history.js-de8554b\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\balupton-history.js-de8554b\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/balupton-history.js-de8554b"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\Doc1\MyDoc\MySoftware\balupton-history.js-de8554b\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\balupton-history.js-de8554b\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "8612"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +53,14 @@ Global
 		{3EB75D6F-CFF1-4B93-B2F2-7354F0702E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EB75D6F-CFF1-4B93-B2F2-7354F0702E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EB75D6F-CFF1-4B93-B2F2-7354F0702E05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F673B5F0-81C3-4FEF-BA3F-AA4900338B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F673B5F0-81C3-4FEF-BA3F-AA4900338B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F673B5F0-81C3-4FEF-BA3F-AA4900338B84}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F673B5F0-81C3-4FEF-BA3F-AA4900338B84}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C5321F32-DC83-40EA-AC94-48702ABD974B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5321F32-DC83-40EA-AC94-48702ABD974B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5321F32-DC83-40EA-AC94-48702ABD974B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5321F32-DC83-40EA-AC94-48702ABD974B}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

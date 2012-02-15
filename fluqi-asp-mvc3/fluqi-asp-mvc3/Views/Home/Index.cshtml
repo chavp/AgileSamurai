@@ -1,6 +1,88 @@
-﻿@{
+﻿@using Fluqi;
+@using Fluqi.Core;
+@using Fluqi.Widget.jDatePicker;
+@using Fluqi.Extension;
+
+@{
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<style>
+    .box
+    {
+        cursor: pointer;
+        border:black solid 1px;
+        width: 50px; height: 50px; padding: 0.5em;
+        background-color: Gray;
+    }
+    #containment-wrapper
+    {
+        border:black solid 1px;
+        height: 500px; padding: 0.5em;
+    }
+    
+    .hover
+    {
+        background-color: Black;
+    }
+    
+</style>
+<h2>Workspace : </h2>
 
+<div id="containment-wrapper"></div>
+
+@*http://www.webreference.com/authoring/languages/html/HTML5-Client-Side/index.html*@
+
+<script type="text/javascript">
+    $(function () {
+
+        for (var i = 0; i < 25; i++) {
+            var boxKey = "box-" + i;
+            var $box = $('<canvas></canvas>');
+            $box.attr("id", boxKey);
+            $box.addClass('box');
+
+            var box = $box[0].outerHTML;
+
+            if (localStorage.getItem(boxKey) == null) {
+                localStorage.setItem(boxKey, box);
+            }
+            //sessionStorage.setItem(boxKey, box);
+            box = localStorage.getItem(boxKey);
+
+            $('#containment-wrapper').append(box);
+
+        }
+
+        $(".box").draggable({
+            containment: "#containment-wrapper",
+            scroll: false,
+            snap: '.box',
+            drag: function (event, ui) {
+
+            },
+            stop: function (event, ui) {
+                $(this).removeClass('hover');
+                localStorage.setItem(this.id, this.outerHTML);
+            }
+        });
+
+        $(".box").hover(
+            function () {
+                $(this).addClass('hover');
+            },
+            function () {
+                $(this).removeClass('hover');
+            }
+        );
+
+        $("canvas").each(function () {
+            var ctx = this.getContext('2d');
+            ctx.font = "40pt sans-serif";
+            ctx.fillStyle = "#ffffff"; // text color
+            ctx.fillText(this.id, 10, 50);
+
+        });
+        //sessionStorage.setItem('fullname', 'John Paul');  
+    });
+</script>
