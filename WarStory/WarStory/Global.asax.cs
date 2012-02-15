@@ -5,7 +5,6 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using MongoDB.Bson.Serialization;
-using WarStory.Models;
 
 namespace WarStory
 {
@@ -37,8 +36,6 @@ namespace WarStory
 
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
-
-            BsonClassMap.RegisterClassMap<Warehouse>();
         }
     }
 }

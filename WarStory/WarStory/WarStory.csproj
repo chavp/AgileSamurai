@@ -67,11 +67,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\ChavpController.cs" />
-    <Compile Include="Repositories\WarehouseRepository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Warehouse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -91,6 +89,7 @@
     <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
     <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
     <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="HTMLPage1.htm" />
     <Content Include="lib\MongoDB.Bson.dll" />
     <Content Include="lib\MongoDB.Driver.dll" />
     <Content Include="Scripts\domain\Warehouse.js" />
@@ -125,7 +124,16 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\WarStory.Domain\WarStory.Domain.csproj">
+      <Project>{C2D6D5B6-9D8F-472C-9998-D31CA2D8FE4E}</Project>
+      <Name>WarStory.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WarStoryServer\WarStoryServer.csproj">
+      <Project>{AEAC8BB6-6194-41D4-980F-474B6BD51F15}</Project>
+      <Name>WarStoryServer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Chavp\Index.cshtml" />
   </ItemGroup>

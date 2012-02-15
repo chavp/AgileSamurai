@@ -1,14 +1,18 @@
-﻿var Warehouse = function (name) {
-    this.name = name;
-    this.wood = 0;
-    this.stone = 0;
-    this.iron = 0;
+﻿var Warehouse = function (config) {
+    this.name = config.name;
+    this.wood = parseInt(config.wood);
+    this.stone = parseInt(config.stone);
+    this.iron = parseInt(config.iron);
+
+    this.forestLv = parseInt(config.forestLv);
+    this.mineLv = parseInt(config.mineLv);
+    this.mountainLv = parseInt(config.mountainLv);
 }
 
 Warehouse.prototype.action = function () {
-    console.log(this.name + ".action");
+    //console.log(this.name + ".action");
 
-    this.wood++;
-    this.stone++;
-    this.iron++;
+    this.wood = this.wood + this.forestLv;
+    this.stone = this.stone + this.mountainLv;
+    this.iron = this.iron + this.mineLv;
 }

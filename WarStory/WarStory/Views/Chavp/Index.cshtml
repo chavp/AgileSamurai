@@ -1,31 +1,143 @@
-﻿@{
+﻿@model WarStory.Domain.Warehouse
+
+@{
     ViewBag.Title = "Index";
 }
 
+<style>
+    #land
+    {
+        display: table-row;
+    }
+    hr{ clear:both; }
+    div
+    {
+        margin: 3px;
+    }
+    
+    #warehouse div
+    {
+        float: left;
+    }
+    
+</style>
+           
+<h2>Hi, @ViewBag.PlayerName</h2>
 
-<h2>Index</h2>
-
-<div class="land">
-    <div class="warehouse">
-        <div class="wood">Wood: <span class="value"></span></div>
-        <div class="stone">Stone: <span class="value"></span></div>
-        <div class="iron">Iron: <span class="value"></span></div>
+<div id="land">
+    <div id="warehouse">
+        <div id="warehouse-lv">Warehouse LV: @Model.Level [ </div>
+        <div id="wood">Wood: <span class="value"> </span> | </div>
+        <div id="stone">Stone: <span class="value"> </span>  | </div>
+        <div id="iron">Iron: <span class="value"></span> ] </div>
     </div>
+    <hr />
+    <div id="factory">
+        <div id="forest">Forest LV: <span class="value"></span> <input id="forest-upgrade" type="button" value="+" /> </div>
+        <div id="mountain">Mountain LV: <span class="value"></span> <input id="mountain-upgrade" type="button" value="+" /></div>
+        <div id="mine">Mine LV: <span class="value"></span> <input id="mine-upgrade" type="button" value="+" /></div>
+    </div>
+    <hr />
+
 </div>
+
 
 <script src="@Url.Content("~/Scripts/domain/Warehouse.js")" type="text/javascript"></script>
 
 <script type="text/javascript">
-    var chavpWarehouse = new Warehouse("Chavp.Warehouse");
+    var chavpWarehouse = new Warehouse({
+        name: '@ViewBag.PlayerName',
+        wood: '@Model.Wood',
+        stone: '@Model.Stone',
+        iron: '@Model.Iron',
+
+        forestLv: '@Model.ForestLv',
+        mineLv: '@Model.MineLv',
+        mountainLv: '@Model.MountainLv'
+    });
+
     var next = function () {
         chavpWarehouse.action();
 
-        $('.wood .value').text(chavpWarehouse.wood);
-        $('.stone .value').text(chavpWarehouse.stone);
-        $('.iron .value').text(chavpWarehouse.iron);
+        $('#wood .value').text(chavpWarehouse.wood);
+        $('#stone .value').text(chavpWarehouse.stone);
+        $('#iron .value').text(chavpWarehouse.iron);
 
     }
+
+    var updateWarehouse = function (warehouse) {
+        chavpWarehouse.forestLv = warehouse.ForestLv;
+        chavpWarehouse.mountainLv = warehouse.MountainLv;
+        chavpWarehouse.mineLv = warehouse.MineLv;
+
+        chavpWarehouse.wood = warehouse.Wood;
+        chavpWarehouse.stone = warehouse.Stone;
+        chavpWarehouse.iron = warehouse.Iron;
+
+    }
+
     $(function () {
+
         setInterval(next, 1000);
+
+        $('#forest .value').text(chavpWarehouse.forestLv);
+        $('#mountain .value').text(chavpWarehouse.mountainLv);
+        $('#mine .value').text(chavpWarehouse.mineLv);
+
+        //binding action upgrade
+        $('#forest-upgrade').on('click', function () {
+            console.log("forest upgrade");
+            $.ajax({
+                type: "POST",
+                cache: false,
+                data: "{'name': '@ViewBag.PlayerName'}",
+                url: '@Url.Action("UpgradeForest", "Chavp")',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (result) {
+                    var warehouse = result.warehouse;
+                    updateWarehouse(warehouse);
+
+                    $('#forest .value').text(chavpWarehouse.forestLv);
+
+                }
+            });
+        });
+
+        $('#mountain-upgrade').on('click', function () {
+            console.log("mountain upgrade");
+            $.ajax({
+                type: "POST",
+                cache: false,
+                data: "{'name': '@ViewBag.PlayerName'}",
+                url: '@Url.Action("UpgradeMountain", "Chavp")',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (result) {
+                    var warehouse = result.warehouse;
+                    updateWarehouse(warehouse);
+
+                    $('#mountain .value').text(chavpWarehouse.mountainLv);
+                }
+            });
+        });
+
+        $('#mine-upgrade').on('click', function () {
+            console.log("mine upgrade");
+            $.ajax({
+                type: "POST",
+                cache: false,
+                data: "{'name': '@ViewBag.PlayerName'}",
+                url: '@Url.Action("UpgradeMine", "Chavp")',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (result) {
+                    var warehouse = result.warehouse;
+                    updateWarehouse(warehouse);
+
+                    $('#mine .value').text(chavpWarehouse.mineLv);
+                }
+            });
+        });
     });
 </script>

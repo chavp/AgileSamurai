@@ -27,10 +27,9 @@ namespace WarStory.Repositories
             {
                 
                 var warehouseDocuments = warstoryDocuments.GetCollection<Warehouse>("warehouse-documents");
-                var query = Query.EQ("Name", name);
+                var query = Query.EQ("_id", name);
 
-                var results = warehouseDocuments.Find(query).ToList();
-                var all = warehouseDocuments.FindAll();
+                warehouseDocument = warehouseDocuments.FindAs<Warehouse>(query).SingleOrDefault();
                 if (warehouseDocument != null)
                 {
                     warehouseDocument.Action();

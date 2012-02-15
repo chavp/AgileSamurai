@@ -1,7 +1,14 @@
+D:\GithubRepositories\AgileSamurai\WarStory\WarStory\bin\WarStory.xml
 D:\GithubRepositories\AgileSamurai\WarStory\WarStory\bin\WarStory.dll
 D:\GithubRepositories\AgileSamurai\WarStory\WarStory\bin\WarStory.pdb
 D:\GithubRepositories\AgileSamurai\WarStory\WarStory\bin\MongoDB.Bson.dll
 D:\GithubRepositories\AgileSamurai\WarStory\WarStory\bin\MongoDB.Driver.dll
+D:\GithubRepositories\AgileSamurai\WarStory\WarStory\bin\WarStory.Domain.dll
+D:\GithubRepositories\AgileSamurai\WarStory\WarStory\bin\WarStoryServer.exe
+D:\GithubRepositories\AgileSamurai\WarStory\WarStory\bin\Spring.Core.dll
+D:\GithubRepositories\AgileSamurai\WarStory\WarStory\bin\Common.Logging.dll
+D:\GithubRepositories\AgileSamurai\WarStory\WarStory\bin\WarStory.Domain.pdb
+D:\GithubRepositories\AgileSamurai\WarStory\WarStory\bin\WarStoryServer.pdb
 D:\GithubRepositories\AgileSamurai\WarStory\WarStory\obj\Debug\ResolveAssemblyReference.cache
 D:\GithubRepositories\AgileSamurai\WarStory\WarStory\obj\Debug\WarStory.dll
 D:\GithubRepositories\AgileSamurai\WarStory\WarStory\obj\Debug\WarStory.pdb
