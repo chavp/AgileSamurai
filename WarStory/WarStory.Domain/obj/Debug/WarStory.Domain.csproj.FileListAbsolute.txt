@@ -5,3 +5,10 @@ D:\GithubRepositories\AgileSamurai\WarStory\WarStory.Domain\bin\Debug\MongoDB.Dr
 D:\GithubRepositories\AgileSamurai\WarStory\WarStory.Domain\obj\Debug\ResolveAssemblyReference.cache
 D:\GithubRepositories\AgileSamurai\WarStory\WarStory.Domain\obj\Debug\WarStory.Domain.dll
 D:\GithubRepositories\AgileSamurai\WarStory\WarStory.Domain\obj\Debug\WarStory.Domain.pdb
+G:\Data\GitRepositories\AgileSamurai\WarStory\WarStory.Domain\bin\Debug\WarStory.Domain.dll
+G:\Data\GitRepositories\AgileSamurai\WarStory\WarStory.Domain\bin\Debug\WarStory.Domain.pdb
+G:\Data\GitRepositories\AgileSamurai\WarStory\WarStory.Domain\bin\Debug\MongoDB.Bson.dll
+G:\Data\GitRepositories\AgileSamurai\WarStory\WarStory.Domain\bin\Debug\MongoDB.Driver.dll
+G:\Data\GitRepositories\AgileSamurai\WarStory\WarStory.Domain\obj\Debug\ResolveAssemblyReference.cache
+G:\Data\GitRepositories\AgileSamurai\WarStory\WarStory.Domain\obj\Debug\WarStory.Domain.dll
+G:\Data\GitRepositories\AgileSamurai\WarStory\WarStory.Domain\obj\Debug\WarStory.Domain.pdb

@@ -33,9 +33,12 @@
     </div>
     <hr />
     <div id="factory">
-        <div id="forest">Forest LV: <span class="value"></span> <input id="forest-upgrade" type="button" value="+" /> </div>
-        <div id="mountain">Mountain LV: <span class="value"></span> <input id="mountain-upgrade" type="button" value="+" /></div>
-        <div id="mine">Mine LV: <span class="value"></span> <input id="mine-upgrade" type="button" value="+" /></div>
+        <div id="forest">Forest LV: <span class="value"></span> <input id="forest-upgrade" type="button" value="+" /> 
+            Cost: <span class="cost"></span> </div>
+        <div id="mountain">Mountain LV: <span class="value"></span> <input id="mountain-upgrade" type="button" value="+" />
+            Cost: <span class="cost"></span></div>
+        <div id="mine">Mine LV: <span class="value"></span> <input id="mine-upgrade" type="button" value="+" />
+            Cost: <span class="cost"></span></div>
     </div>
     <hr />
 
@@ -83,6 +86,10 @@
         $('#forest .value').text(chavpWarehouse.forestLv);
         $('#mountain .value').text(chavpWarehouse.mountainLv);
         $('#mine .value').text(chavpWarehouse.mineLv);
+
+        $('#forest .cost').text("(-" + chavpWarehouse.forestLv * 100 + ", -" + chavpWarehouse.mountainLv * 500 + ", -" + chavpWarehouse.mineLv * 300 + ")");
+        $('#mountain .cost').text("(-" + chavpWarehouse.forestLv * 300 + ", -" + chavpWarehouse.mountainLv * 100 + ", -" + chavpWarehouse.mineLv * 500 + ")");
+        $('#mine .cost').text("(-" + chavpWarehouse.forestLv * 500 + ", -" + chavpWarehouse.mountainLv * 300 + ", -" + chavpWarehouse.mineLv * 100 + ")");
 
         //binding action upgrade
         $('#forest-upgrade').on('click', function () {
