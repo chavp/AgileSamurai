@@ -1,0 +1,6 @@
+D:\GithubRepositories\AgileSamurai\fluqi-asp-mvc3\fluqi-asp-mvc3\bin\fluqi-asp-mvc3.dll
+D:\GithubRepositories\AgileSamurai\fluqi-asp-mvc3\fluqi-asp-mvc3\bin\fluqi-asp-mvc3.pdb
+D:\GithubRepositories\AgileSamurai\fluqi-asp-mvc3\fluqi-asp-mvc3\bin\Fluqi.dll
+D:\GithubRepositories\AgileSamurai\fluqi-asp-mvc3\fluqi-asp-mvc3\obj\Debug\ResolveAssemblyReference.cache
+D:\GithubRepositories\AgileSamurai\fluqi-asp-mvc3\fluqi-asp-mvc3\obj\Debug\fluqi-asp-mvc3.dll
+D:\GithubRepositories\AgileSamurai\fluqi-asp-mvc3\fluqi-asp-mvc3\obj\Debug\fluqi-asp-mvc3.pdb
